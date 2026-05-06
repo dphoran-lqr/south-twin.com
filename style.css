@@ -134,8 +134,8 @@ body.hero-page { padding-top: 0; }
 .btn-light:hover { background: var(--bg-warm); border-color: var(--bg-warm); }
 
 .text-link {
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--navy); border-bottom: 1.5px solid var(--gold); padding-bottom: 2px;
+  font-size: 0.82rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--navy); border-bottom: 2px solid var(--gold); padding-bottom: 3px;
   transition: opacity 0.2s;
 }
 .text-link:hover { opacity: 0.6; }
@@ -271,7 +271,7 @@ body.hero-page { padding-top: 0; }
 
 /* ── WHY TIMING ──────────────────────────────────────────── */
 .why {
-  padding: 7.5rem var(--px);
+  padding: 7.5rem var(--px) 4rem;
   max-width: var(--max); margin: 0 auto;
   display: grid; grid-template-columns: 5fr 7fr; gap: 6rem; align-items: start;
 }
@@ -292,7 +292,7 @@ body.hero-page { padding-top: 0; }
   background-image: url('rocks.jpg');
   background-size: cover;
   background-position: center 40%;
-  padding: 8rem var(--px);
+  padding: 3.5rem var(--px);
   text-align: center;
 }
 /* Multi-layer overlay: dark enough for text, preserves texture */
